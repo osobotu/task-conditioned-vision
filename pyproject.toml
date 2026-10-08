@@ -1,0 +1,14 @@
+[project]
+name = "task-conditioned-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gymnasium>=1.4.0",
+    "mani-skill>=3.0.1",
+    "mujoco==3.9.0",
+    "pillow>=12.3.0",
+    "robosuite>=1.5.2",
+    "torch>=2.14.1",
+]

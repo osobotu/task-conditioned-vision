@@ -1,0 +1,20 @@
+research.md
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and large assets
+data/
+*.log
+
+# Environment secrets
+.env
+.env.*
