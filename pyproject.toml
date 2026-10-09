@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "gymnasium>=1.4.0",
     "mani-skill>=3.0.1",
+    "matplotlib>=3.11.2",
     "mujoco==3.9.0",
     "pillow>=12.3.0",
     "robosuite>=1.5.2",

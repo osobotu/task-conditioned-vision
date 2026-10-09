@@ -2472,6 +2472,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "gymnasium" },
     { name = "mani-skill" },
+    { name = "matplotlib" },
     { name = "mujoco" },
     { name = "pillow" },
     { name = "robosuite" },
@@ -2482,6 +2483,7 @@ dependencies = [
 requires-dist = [
     { name = "gymnasium", specifier = ">=1.4.0" },
     { name = "mani-skill", specifier = ">=3.0.1" },
+    { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "mujoco", specifier = "==3.9.0" },
     { name = "pillow", specifier = ">=12.3.0" },
     { name = "robosuite", specifier = ">=1.5.2" },
